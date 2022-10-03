@@ -13,7 +13,7 @@ public class S3GameHandler : MonoBehaviour
     public int player1HP = 100;
     public int player2HP = 100;
     public VideoClip VD1, VD2, VD3, VD4, VD5, VD6, VD7, VD8, VD9, VD10;
-    
+   
     void Start()
     {
         
