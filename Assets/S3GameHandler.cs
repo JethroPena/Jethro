@@ -124,4 +124,11 @@ public class S3GameHandler : MonoBehaviour
         yield return new WaitForSeconds(5F);
         dealDamage(15, player1HP);
     }
+    public void changescene(){
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void changescene1(){
+        SceneManager.LoadScene("S3final1");
+    }
 }
